@@ -1,0 +1,51 @@
+.footer-bg {
+  background-color: var(--cp1);
+}
+
+.footer-content {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+
+.footer-text {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-text p{
+  margin-bottom: 120px;
+  max-width: 50ch;
+}
+
+.footer-icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.footer-icon {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  max-width: max-content;
+}
+
+.footer-icon img{
+  width: 24px;
+}
+
+.footer-img {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  align-items: center;
+  /* position: relative; */
+}
+
+.footer-img::after {
+  content: url(../img/Logo\ line.png);
+  position: absolute;
+  right: 10px;
+}
+

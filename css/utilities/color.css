@@ -1,0 +1,47 @@
+:root {
+  --cp1: #ff6d1b;
+  --cp2: #188ffd;
+  --cb1: #1c1c1c;
+  --cb2: #3d3d3d;
+  --cg1: #8d8d8d;
+  --cg2: #b0b0b0;
+  --cg3: #dadada;
+  --cw: #ffffff;
+  --bg: #f9f9f9;
+}
+
+.bg {
+  color: #f9f9f9;
+}
+
+.cp1 {
+  color: #ff6d1b;
+}
+
+.cp2 {
+ color: #188ffd;
+}
+
+.cb1 {
+  color: #1c1c1c;
+}
+
+.cb2 {
+  color: #3d3d3d;
+}
+
+.cg1 {
+  color: #8d8d8d;
+}
+
+.cg2 {
+  color: #b0b0b0;
+}
+
+.cg3 {
+  color: #dadada;
+}
+
+.cw {
+  color: #ffffff;
+}

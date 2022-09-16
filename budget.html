@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TDC</title>
+
+  <link rel="stylesheet" href="./css/style.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <header class="container">
+    <img src="./img/tdc-logo.svg" alt="logo">
+    <nav class="header-menu">
+      <ul>
+        <li><a href="./" class="font-1-mb cp1">Home</a></li>
+        <li><a href="./" class="font-1-mb cg1">Empresa</a></li>
+        <li><a href="./" class="font-1-mb cg1">Serviços</a></li>
+        <li><a href="./" class="font-1-mb cg1">Rastreamento</a></li>
+        <li><a href="./" class="font-1-mb cg1">Contato</a></li>
+        <li><a href="./" class="font-1-mb cg1">Cotação</a></li>
+      </ul>
+    </nav>
+    <a href="./budget.html"><button class="button1 font-1-bl">Solicite uma cotação</button></a>
+  </header>
+
+
+  <main class="container budget-container">
+    <h1 class="font-1-ml">Selecione o tipo de mercadoria a ser cotada</h1>
+    <div class="delivery">
+      <div>
+        <input type="radio" name="type" value="nacional" id="nacional">
+        <div class="delivery-button">
+          <img src="./img/icons/brasil.png" alt="">
+          <label for="nacional" class="font-1-bl cg1"> Nacional</label>
+        </div>
+      </div>
+      <div>
+        <input type="radio" name="type" value="internacional" id="internacional">
+        <div class="delivery-button">
+          <img src="./img/icons/world.png" alt="">
+          <label for="internacional" class="font-1-bl cg1">Internacional</label>
+        </div>
+      </div>
+      <div>
+        <input type="radio" name="type" value="pickup" id="pickup">
+        <div class="delivery-button">
+          <img src="./img/icons/pickup.png" alt="">
+          <label for="pickup" class="font-1-bl cg1">Pickup</label>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </main>
+
+  <section class="container">
+    <div class="form-text">
+      <img src="./img/icons/Brasil-Icon.png" alt="">
+      <h2>Simulação Nacional</h2>
+      <p>Por favor, insira todos os dados necessários para completar a simulação.</p>
+    </div>
+    <form action="" class="container">
+
+      <div class="form">
+        <div>
+          <label for="cep1" class="font-1-bl">Cep de origem:</label>
+          <input type="text" name="cep1" id="cep1" placeholder="00.000-000">
+        </div>
+
+        <div>
+          <label for="cep2" class="font-1-bl">Cep de destino:</label>
+          <input type="text" name="cep2" id="cep2" placeholder="00.000-000">
+        </div>
+
+        <div>
+          <label for="modal" class="font-1-bl">Modalidade:</label>
+          <input type="text" name="modal" id="modal" placeholder="Modalidade">
+        </div>
+
+        <div>
+          <p class="font-1-bl">Frete pagar:</p>
+          <input type="radio" name="frete" id="yes" placeholder="">
+          <label for="yes" class="font-1-bl">Sim</label>
+          <input type="radio" name="frete" id="no" placeholder="">
+          <label for="no" class="font-1-bl">Não</label>
+        </div>
+
+        <div>
+          <label for="weight" class="font-1-bl">Peso em Kg:</label>
+          <input type="text" name="weight" id="weight" placeholder="5 Kg">
+        </div>
+
+        <div>
+          <label for="value" class="font-1-bl">Valor da mercadoria:</label>
+          <input type="text" name="value" id="value" placeholder="R$ 2457,19">
+        </div>
+
+        <div>
+          <label for="value2" class="font-1-bl">Valor da mercadoria:</label>
+          <input type="text" name="value2" id="value2" placeholder="R$ 2457,19">
+        </div>
+
+        <div>
+          <label for="delivery" class="font-1-bl">Entrega:</label>
+          <select name="delivery" id="delivery">
+            <option value="home">Residencial</option>
+            <option value="comercial">Comercial</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="width" class="font-1-bl">Largura (cm):</label>
+          <input type="text" name="width" id="width" placeholder="120 cm">
+        </div>
+
+        <div>
+          <label for="height" class="font-1-bl">Altura (cm):</label>
+          <input type="text" name="height" id="height" placeholder="60 cm">
+        </div>
+
+        <div>
+          <label for="lenght" class="font-1-bl">Comprimento (cm):</label>
+          <input type="text" name="lenght" id="lenght" placeholder="100 cm">
+        </div>
+
+        <input type="submit" value="Simular cotação" class="button2 font-1-bl">
+
+    </form>
+  </section>
+</body>
+
+
+</html>
